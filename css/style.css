@@ -1,0 +1,71 @@
+.inline-block {
+    display: inline-block;
+    margin-left: 7px;
+    vertical-align: top;
+}
+.logo {
+    float: left;
+    width: 23%;
+    padding: 50px;
+}
+nav {
+    display: inline-block;
+    float: right;
+    padding: 15px;
+}
+ul, li {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+ul {
+    list-style: none;
+}
+li {
+    display: inline-block;
+    margin-left: 7px;
+}
+body {
+    background-color: black;
+}
+h1, p {
+    color: white;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
+}
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+}
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+}
+.heroImg {
+    display:inline-block;
+    width: 100%;
+    height: 100%;
+}
+.rightimg {
+    display: inline-block;
+    width: 433px;
+    height: 577px;
+    margin: 0 auto;
+    padding: 50px;
+    float: right;
+}
+.content {
+    display: inline-block;
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    float: left;
+}
+footer ul {
+    display: inline-block;
+    margin-left: 7px;
+    float: right;
+}
